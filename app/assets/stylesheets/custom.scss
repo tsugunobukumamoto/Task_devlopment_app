@@ -58,16 +58,30 @@ p {
   font-size: 1.7em;
   color: #fff;
   text-transform: uppercase;
+  font-style:italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #fff;
+  color: silver;
   text-decoration: none;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: silver;
+}
+
+.dropdown > li > a {
+  color: #fff;
+  font-weight: bold;
+}
 /* デバッグウインドウ */
 
 .debug_dump {
