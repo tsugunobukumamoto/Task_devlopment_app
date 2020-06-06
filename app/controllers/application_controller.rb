@@ -26,4 +26,9 @@ class ApplicationController < ActionController::Base
       redirect_to root_url
     end  
   end
+  
+  def current_user?(user)
+    user == current_user
+  end
+
 end

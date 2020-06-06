@@ -14,6 +14,8 @@ gem 'jquery-rails'
 gem 'turbolinks',   '~> 5'
 gem 'jbuilder',     '~> 2.5'
 gem 'rails-i18n'
+gem 'rinku'
+gem 'rails_autolink'
 
 group :development, :test do
   gem 'sqlite3'
