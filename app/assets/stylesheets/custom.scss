@@ -52,34 +52,41 @@ p {
 
 /* ヘッダー */
 
+#header {
+  background-color: teal;
+}
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
-  font-style:italic;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color:silver;
+    text-decoration: none;
+  }
 }
 
-#logo:hover {
-  color: silver;
-  text-decoration: none;
-}
 
-.navbar-inverse .navbar-nav > li > a {
-  color: #fff;
+li .header-list {
+  color: #fff !important;
   font-weight: bold;
+  &:hover {
+    color: silver !important;
+  }
 }
 
-.navbar-inverse .navbar-nav > li > a:hover {
-  color: silver;
+
+#dropdown-title {
+  background-color: teal;
 }
 
-.dropdown > li > a {
-  color: #fff;
+li .dropdown-header {
+  background-color: rgba(200, 200, 200, 0.5);
   font-weight: bold;
 }
 /* デバッグウインドウ */
@@ -110,3 +117,4 @@ p {
     color: $state-danger-text;
   }
 }
+
